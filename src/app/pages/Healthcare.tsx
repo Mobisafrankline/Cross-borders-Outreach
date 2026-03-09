@@ -2,12 +2,12 @@ import { Heart, Activity, Stethoscope, Shield, CheckCircle2 } from "lucide-react
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export default function Healthcare() {
-  const impacts = [
-    { number: "15,000+", label: "Patients Treated" },
-    { number: "300+", label: "Monthly Consultations" },
-    { number: "8", label: "Mobile Clinics" },
-    { number: "98%", label: "Patient Satisfaction" }
-  ];
+  // const impacts = [
+  //   { number: "15,000+", label: "Patients Treated" },
+  //   { number: "300+", label: "Monthly Consultations" },
+  //   { number: "8", label: "Mobile Clinics" },
+  //   { number: "98%", label: "Patient Satisfaction" }
+  // ];
 
   const services = [
     {
@@ -53,7 +53,7 @@ export default function Healthcare() {
         </div>
       </section>
 
-      {/* Impact Stats */}
+      {/* Impact Stats
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
@@ -65,7 +65,7 @@ export default function Healthcare() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* About Program */}
       <section className="py-20 bg-gray-50">

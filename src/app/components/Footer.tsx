@@ -47,7 +47,7 @@ export default function Footer() {
             {/* Social Media */}
             <div className="flex flex-wrap gap-3">
 
-              <a href="#" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.facebook.com/profile.php?id=61582215896020" target="_blank" rel="noopener noreferrer"
                 className="social-btn hover:bg-blue-600">
                 <Facebook className="icon" />
               </a>
@@ -72,7 +72,7 @@ export default function Footer() {
                 <Youtube className="icon" />
               </a>
 
-              <a href="https://pin.it/1dI24zOwr" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.pinterest.com/Crossbordersoutreach/" target="_blank" rel="noopener noreferrer"
                 className="social-btn hover:bg-red-600">
                 <FaPinterestP className="icon text-white text-lg" />
               </a>
@@ -92,7 +92,7 @@ export default function Footer() {
                 <Send className="icon" />
               </a>
 
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/Mobisafrankline" target="_blank" rel="noopener noreferrer"
                 className="social-btn hover:bg-gray-700">
                 <Github className="icon" />
               </a>
@@ -130,7 +130,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-0.5" />
                 <span className="text-gray-400">
-                  140 West Skyline View,<br />
+                  {/* 140 West Skyline View,<br /> */}
                   Dallas, GA<br />
                   United States
                 </span>

@@ -2,12 +2,12 @@ import { TrendingUp, DollarSign, Briefcase, Users, CheckCircle2 } from "lucide-r
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export default function Economic() {
-  const impacts = [
-    { number: "800+", label: "Businesses Started" },
-    { number: "2,500+", label: "People Trained" },
-    { number: "$1.2M", label: "Microloans Disbursed" },
-    { number: "92%", label: "Loan Repayment Rate" }
-  ];
+  // const impacts = [
+  //   { number: "800+", label: "Businesses Started" },
+  //   { number: "2,500+", label: "People Trained" },
+  //   { number: "$1.2M", label: "Microloans Disbursed" },
+  //   { number: "92%", label: "Loan Repayment Rate" }
+  // ];
 
   const programs = [
     {
@@ -54,7 +54,7 @@ export default function Economic() {
       </section>
 
       {/* Impact Stats */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             {impacts.map((impact, index) => (
@@ -65,7 +65,7 @@ export default function Economic() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* About Program */}
       <section className="py-20 bg-gray-50">

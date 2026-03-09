@@ -56,6 +56,16 @@ export default function Education() {
       {/* Impact Stats */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
+          
+          {/* Title & Subtitle */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900">Our Impact Projection</h2>
+            <p className="text-gray-600 mt-2">
+              Key achievements and metrics from our Education Support Program
+            </p>
+          </div>
+
+          {/* Impact Cards */}
           <div className="grid md:grid-cols-4 gap-8">
             {impacts.map((impact, index) => (
               <div key={index} className="text-center">

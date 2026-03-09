@@ -44,7 +44,6 @@ export default function FoodSupport() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-800/70" />
         </div>
-        
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Food Support Program</h1>
           <p className="text-xl md:text-2xl opacity-95">
@@ -56,6 +55,16 @@ export default function FoodSupport() {
       {/* Impact Stats */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
+
+          {/* Title & Subtitle */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900">Our Impact Projection</h2>
+            <p className="text-gray-600 mt-2">
+              Key achievements and metrics from our Food Support Program
+            </p>
+          </div>
+
+          {/* Impact Cards */}
           <div className="grid md:grid-cols-4 gap-8">
             {impacts.map((impact, index) => (
               <div key={index} className="text-center">
@@ -81,7 +90,6 @@ export default function FoodSupport() {
                 Through partnerships with local farmers, food banks, and community organizations, we ensure 
                 sustainable solutions that empower communities to achieve food independence.
               </p>
-              
               <div className="space-y-3">
                 {[
                   "Nutritionally balanced meal packages",
@@ -96,7 +104,6 @@ export default function FoodSupport() {
                 ))}
               </div>
             </div>
-            
             <div className="relative">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1710092784814-4a6f158913b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwZGlzdHJpYnV0aW9uJTIwY2hhcml0eSUyMHZvbHVudGVlcnN8ZW58MXx8fHwxNzcxOTk2NjkzfDA&ixlib=rb-4.1.0&q=80&w=1080"
@@ -117,7 +124,6 @@ export default function FoodSupport() {
               Comprehensive food security programs designed to meet diverse community needs
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 gap-8">
             {programs.map((program, index) => {
               const Icon = program.icon;
